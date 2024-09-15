@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header .logo{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+header .menu{
+    width: 56px;
+    height: 46px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .menu-line{
+    height: 7px;
+    width: 46px;
+    background-color: #3b576d;
+    border-radius: 3px;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.container .container-left{
+    flex: 1;
+    background-color: #3b576d;
+}
+.container .container-rigth{
+    flex: 1;
+    background-image: url('../images/hero.jpg');
+    background-position:top;
+    background-size: cover;
+}
+.container-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+.info{
+    color: white;
+}
+.info .infoProfissao{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.info .infoNome{
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.info .btn a{
+    display: inline-block;
+    background-color: white;
+    color: #3b576d;
+    padding: 20px 40px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.info .btn a.lithg{
+    position: relative;
+    left: -5px;
+    background-color: #2b4151;
+    color: white;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.info .btn a:hover{
+    opacity: 0.8;
+}
+footer{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width:450px) {
+    header{
+        position: initial;
+        background-color: #3b576d;
+        padding: 13px
+    }
+    header .menu {
+        width: 30px;
+        height: 32px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    header .menu-line {
+        height: 6px;
+        width: 36px;
+        background-color: #ffffff;
+        border-radius: 3px;
+    }
+    .container{
+        flex-direction: column;
+        height: calc(100vh - 85px);
+    }
+    .container .container-left{
+        flex: 2;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .infoProfissao {
+        font-size: 19px;
+    }
+    .info .infoNome {
+        font-size: 46px;
+    }
+    .container .container-rigth{
+        flex: 3;
+    }
+    .info .btn a {
+        padding: 11px 14px;
+        font-size: 15px;
+    }
+    footer{
+        position: initial;
+        color: #2b4151;
+        font-size: 13px;
+        padding: 8px;
+    }
+}
