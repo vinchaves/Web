@@ -1,0 +1,61 @@
+* {
+  border-radius: border-box;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 100px 100px 0px 100px;
+  background: linear-gradient(-110deg, #ff00c7, #9f6dd2);
+}
+main {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+.fonte {
+  font-family: "Outfit", sans-serif;
+}
+h1 {
+  text-align: center;
+  width: 376px;
+  height: 53px;
+  padding: 60px 0 0 4px;
+}
+h2 {
+  padding-left: 72px;
+}
+input {
+  font-size: 14px;
+  height: 24px;
+  width: 643px;
+  border: none;
+  margin-left: 72px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #dad5d5;
+}
+button {
+  width: 60px;
+  height: 60px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: x;
+}
+div.Adicionar {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0 5px 228px;
+  display: flex;
+  gap: 20px;
+}
+#Ad {
+  color: rgb(81, 81, 235);
+}
+#Adicionar {
+  width: 40px;
+  height: 40px;
+}

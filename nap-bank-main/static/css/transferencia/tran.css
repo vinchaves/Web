@@ -1,0 +1,17 @@
+*{
+    font-size: 18px;
+}
+
+.corpo {
+    height: 90%;
+
+}
+
+@media (max-width:991px) {
+    #radio2 {
+        margin-left: 0;
+    }
+    span{
+        font-size: 15px;
+    }
+}

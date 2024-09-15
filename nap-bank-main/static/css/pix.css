@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 100px 100px 0px 100px;
+  background: linear-gradient(-110deg, #ff00c7, #9f6dd2);
+}
+main {
+  background-color: white;
+  border-radius: 10px;
+  height: 100%;
+}
+h1 {
+  font-family: "Outfit", sans-serif;
+  padding: 7% 0% 0% 5%;
+}
+h2 {
+  font-family: "Outfit", sans-serif;
+  padding: 0% 0% 0% 6%;
+}
+button {
+  background: linear-gradient(to top right, #ff00c7, #9f6dd2);
+  /* box-shadow: 4px 4px 3px 0 #000; */
+}
+button:hover {
+  background: linear-gradient(-110deg, #6f4b92, #ac0187);
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+#scrool-ações-rapidas {
+  display: flex;
+  padding: 3% 3% 3% 5%;
+  gap: 40px;
+}
+#scrool-ações-colar {
+  display: flex;
+  gap: 30px;
+}
+#botão-colar {
+  border: 0;
+  width: 100px;
+  height: 30px;
+  font-family: "Outfit", sans-serif;
+  color: white;
+  letter-spacing: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: -14px;
+  border-radius: 10px;
+}
+.botão-ação {
+  border: 0;
+  width: 160px;
+  height: 160px;
+  font-family: "Outfit", sans-serif;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+input {
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  margin-left: 5%;
+  width: 40%;
+  height: 30%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  text-align: center;
+}
